@@ -1,2 +1,2 @@
-# Practica3
-Practica 3 de Estructura de Datos Unidad 2 Ciclo 3
+# Practica2EstructuraDatos
+Practica 2 de Estructura de Datos GRUPO 1_Venta de casas

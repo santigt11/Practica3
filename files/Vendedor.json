@@ -1,0 +1,38 @@
+{
+    "controlador.TDA.listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.Vendedor",
+                "id": 0,
+                "cedula": 1150357679,
+                "nombres": "SANTIAGO",
+                "apellidos": "GUACHIZACA",
+                "telefono": "0980170669"
+            },
+            "next": {
+                "info": {
+                    "@class": "modelo.Vendedor",
+                    "id": 1,
+                    "cedula": 1103136600,
+                    "nombres": "RUBEN",
+                    "apellidos": "TROYA",
+                    "telefono": "0989304032"
+                },
+                "next": {
+                    "info": {
+                        "@class": "modelo.Vendedor",
+                        "id": 2,
+                        "cedula": 1103320956,
+                        "nombres": "JUAN",
+                        "apellidos": "CARTUCHE",
+                        "telefono": "0989589647"
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header\/next\/next"
+        },
+        "length": 3
+    }
+}
