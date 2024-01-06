@@ -1,0 +1,108 @@
+{
+    "controlador.TDA.listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.Venta",
+                "id": 0,
+                "casa": {
+                    "id": 0,
+                    "direccion": "Leon",
+                    "tipoCasa": "CONCRETO",
+                    "area": {
+                        "anchoConstruccion": 20,
+                        "largoConstruccion": 20,
+                        "anchoTerreno": 30,
+                        "largoTerreno": 40
+                    }
+                },
+                "precio": 1600,
+                "vendedor": {
+                    "id": 0,
+                    "cedula": 1150357679,
+                    "nombres": "SANTIAGO",
+                    "apellidos": "GUACHIZACA",
+                    "telefono": "0980170669"
+                }
+            },
+            "next": {
+                "info": {
+                    "@class": "modelo.Venta",
+                    "id": 1,
+                    "casa": {
+                        "id": 1,
+                        "direccion": "Argelia",
+                        "tipoCasa": "LADRILLO",
+                        "area": {
+                            "anchoConstruccion": 30,
+                            "largoConstruccion": 20,
+                            "anchoTerreno": 30,
+                            "largoTerreno": 60
+                        }
+                    },
+                    "precio": 2400,
+                    "vendedor": {
+                        "id": 1,
+                        "cedula": 1103136600,
+                        "nombres": "RUBEN",
+                        "apellidos": "TROYA",
+                        "telefono": "0989304032"
+                    }
+                },
+                "next": {
+                    "info": {
+                        "@class": "modelo.Venta",
+                        "id": 2,
+                        "casa": {
+                            "id": 2,
+                            "direccion": "Ciudad Victoria",
+                            "tipoCasa": "LADRILLO",
+                            "area": {
+                                "anchoConstruccion": 50,
+                                "largoConstruccion": 50,
+                                "anchoTerreno": 80,
+                                "largoTerreno": 90
+                            }
+                        },
+                        "precio": 9700,
+                        "vendedor": {
+                            "id": 2,
+                            "cedula": 1103320956,
+                            "nombres": "JUAN",
+                            "apellidos": "CARTUCHE",
+                            "telefono": "0989589647"
+                        }
+                    },
+                    "next": {
+                        "info": {
+                            "@class": "modelo.Venta",
+                            "id": 3,
+                            "casa": {
+                                "id": 3,
+                                "direccion": "Tierras Coloradas",
+                                "tipoCasa": "MADERA",
+                                "area": {
+                                    "anchoConstruccion": 15,
+                                    "largoConstruccion": 10,
+                                    "anchoTerreno": 15,
+                                    "largoTerreno": 20
+                                }
+                            },
+                            "precio": 450,
+                            "vendedor": {
+                                "id": 3,
+                                "cedula": 1150682928,
+                                "nombres": "MARIA",
+                                "apellidos": "CHAMBA",
+                                "telefono": "0932658542"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header\/next\/next\/next"
+        },
+        "length": 4
+    }
+}
